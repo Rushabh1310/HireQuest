@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  /* Adjust this if your main container ID is different */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it takes full height */
+}
